@@ -1,12 +1,4 @@
-## Install
-```python
-pip install nbconvert
-```
 
-## step
-Be sure to change the comment section before use.
-
-```python
 import subprocess
 
 ## !-- Please change the variables in this section! --
@@ -95,6 +87,4 @@ commands = [python_path,scripts()]
 
 proc = subprocess.Popen(commands,shell=True)
 
-
-```
 
